@@ -1,0 +1,36 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+.env.local
+.env.*.local
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local database files
+*.sqlite
+*.sqlite3
+*.db
